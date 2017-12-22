@@ -1,10 +1,10 @@
-Package: rGame
+Package: rGames
 Type: Package
-Title: What the Package Does (Title Case)
+Title: An R package that plays simple games
 Version: 0.1
-Date: 2017-05-24
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Date: 2017-12-21
+Author@R: person(given = "Joshua",family = "Lambert",email = "joshua.lambert@uky.edu",role = c('aut','cre'))
+Description: Allows users to play simple games in R and manipulate the games as they see fit.
+Imports: raster
+License: MIT
 LazyData: TRUE

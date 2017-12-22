@@ -1,5 +1,11 @@
-library(raster)
-library(grid)
+#' Tetris for R
+#'
+#' @param length length of tetris board
+#' @param width width of tetris board
+#' @param data current position of pieces on tetris board
+#' @importFrom raster raster rasterToPolygons
+#' @return plays tetris
+#' @export
 tetris<-function(length,width,data=rep(0,length*width)){
   data=matrix('white',nrow=length,ncol=width)
   
